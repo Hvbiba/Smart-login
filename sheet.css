@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif; text-align: center;
+    background-color: #24353f;
+}
+#loginPage , #container{
+    margin-top: 70px;
+}
+#signupPage{
+    margin-top: 45px;
+}
+#login , #signUp , #container{
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    width: 75%; padding: 50px 20px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+#login input , #signUp input{
+    width: 80%;height: 40px; padding: 10px;
+     display: block; margin: 10px 20px;
+     background-color: #24353f; border: #eee solid 0.5px; color: #eee;
+}
+#login .btn  , #signUp  .btn{
+    width: 95%; height: 40px; padding: 5px;
+    margin: 25px 0px;
+}
+#login p , #login a,
+#signUp  p ,#signUp  a{
+    font-size: 17px; font-weight: 500;
+    color: #fff; text-decoration: none;
+}
+h3{
+    font-size: 40px; letter-spacing: 1px;
+     color: #17A2B8; padding: 10px 20px;
+}
+h2{
+    color: #fff;
+}
+
+@media (max-width: 576px){
+    #login , #signUp{
+        width: 90%; padding: 30px 10px;
+    }
+    #login input , #signUp input{
+        width: 90%; margin:10px 5px;
+    }
+    #login .btn  , #signUp  .btn{
+        width: 103%;
+    }
+    h3{
+        font-size: 30px;
+    }
+    #loginPage , #container{
+        margin-top: 80px;
+    }
+    #signupPage{
+        margin-top: 60px;
+    }
+}
